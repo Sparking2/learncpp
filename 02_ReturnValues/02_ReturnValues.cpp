@@ -1,19 +1,37 @@
+//#include <iostream>
+//
+//int getValueFromUser()
+//{
+//	std::cout << "Enter an integer: ";
+//	int input{};
+//	std::cin >> input;
+//
+//	return input;
+//}
+//
+//int main()
+//{
+//	int num{ getValueFromUser() };
+//	
+//	std::cout << num << " doubled is: " << num * 2 << '\n';
+//
+//	return 0;
+//}
+
 #include <iostream>
 
-int getValueFromUser()
+int doubleNumber(int x)
 {
-	std::cout << "Enter an integer: ";
-	int input{};
-	std::cin >> input;
-
-	return input;
+	return x * 2;
 }
 
 int main()
 {
-	int num{ getValueFromUser() };
-	
-	std::cout << num << " doubled is: " << num * 2 << '\n';
+	std::cout << "Write an Integer: ";
+	int num{ 0 };
+	std::cin >> num;
+
+	std::cout << "Double " << num << " is: " << doubleNumber(num);
 
 	return 0;
 }
