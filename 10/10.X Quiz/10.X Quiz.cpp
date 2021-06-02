@@ -1,34 +1,55 @@
 #include <iostream>
 #include <iterator>
+#include <numeric>
+#include <cassert>
 
 // array is the array to search over.
 // target is the value we're trying to determine exists or not.
 // min is the index of the lower bounds of the array we're searching.
 // max is the index of the upper bounds of the array we're searching.
 // binarySearch() should return the index of the target element if the target is found, -1 otherwise
-int binarySearch(const int* array, int target, int min, int max)
-{
-	int index{ -1 };
-	bool completed{ false };
+//int binarySearch(const int* array, int target, int min, int max)
+//{
+//	int index{ -1 };
+//
+//	while (min <= max)
+//	{
+//		int center{ min + ((max - min) / 2) };
+//
+//		if (array[center] == target) {
+//			index = center;
+//			break;
+//		}
+//
+//		if (array[center] > target) {
+//			max = center - 1;
+//		}
+//		if (array[center] < target) {
+//			min = center + 1;
+//		}
+//	}
+//
+//	return index;
+//}
 
-	int center{ max - min };
+int binarySearch(const int* array, int target, int min, int max) {
+
+	assert(array);
+
+	int center{ min + ((max - min) / 2) };
 
 	if (array[center] == target)
-		index = center;
+		return center;
+
+	if (min >= max)
+		return -1;
 
 	if (array[center] > target) {
-		min = center;
+		return binarySearch(array, target, min, center - 1);
 	}
 	else if (array[center] < target) {
-		max = center;
+		return binarySearch(array, target, center + 1, max);
 	}
-
-	//while (completed != true)
-	//{
-	//    std::cout << "Hello\n";
-	//}
-
-	return index;
 }
 
 int main()
