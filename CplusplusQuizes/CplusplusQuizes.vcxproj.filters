@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Ch-11">
+      <UniqueIdentifier>{84431af9-f32e-44ed-a17e-180aedcbe0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-11\11.6">
+      <UniqueIdentifier>{a0cc6661-e173-4a96-a8f2-ea4c15d7f5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-11\11.5">
+      <UniqueIdentifier>{5feb305e-cd12-4c06-8ce0-93d1b94dde21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-11\11.3">
+      <UniqueIdentifier>{af1a056b-7fb5-4b72-87e2-f1738892d3ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-11\11.2">
+      <UniqueIdentifier>{efe24ad6-d321-494e-a530-2fa545296f59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CplusplusQuizes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_11_6_Question1.cpp">
+      <Filter>Source Files\Ch-11\11.6</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_11_5_Question1.cpp">
+      <Filter>Source Files\Ch-11\11.5</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_11_3_Question1.cpp">
+      <Filter>Source Files\Ch-11\11.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_11_3_Question3.cpp">
+      <Filter>Source Files\Ch-11\11.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_11_2_Question1.cpp">
+      <Filter>Source Files\Ch-11\11.2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
