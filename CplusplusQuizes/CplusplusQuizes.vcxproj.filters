@@ -28,6 +28,27 @@
     <Filter Include="Source Files\Ch-11\11.2">
       <UniqueIdentifier>{efe24ad6-d321-494e-a530-2fa545296f59}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Ch-10">
+      <UniqueIdentifier>{825192ed-6c63-44ba-9d05-451126bab1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-10\10.5">
+      <UniqueIdentifier>{906d93e5-9a42-4e78-b0ba-d77f3c3c26e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-10\10.9">
+      <UniqueIdentifier>{4e2179b6-39ce-413b-9c09-16b75260b4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-10\10.12">
+      <UniqueIdentifier>{d0d1641b-38d3-4834-a8ed-0f4fa499e35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-10\10.15">
+      <UniqueIdentifier>{3807052c-dbdd-4b5e-b53a-ecd03273e2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-10\10.16">
+      <UniqueIdentifier>{38664e6e-df53-4364-98c5-6c35fad2a830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-10\10.X">
+      <UniqueIdentifier>{730a2e72-7ea5-40bc-9866-fd08f01b33c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CplusplusQuizes.cpp">
@@ -47,6 +68,30 @@
     </ClCompile>
     <ClCompile Include="Ch_11_2_Question1.cpp">
       <Filter>Source Files\Ch-11\11.2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch-10_5_Question1.cpp">
+      <Filter>Source Files\Ch-10\10.5</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_10_9_Question1.cpp">
+      <Filter>Source Files\Ch-10\10.9</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_10_12_Question1.cpp">
+      <Filter>Source Files\Ch-10\10.12</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_10_15_Question1.cpp">
+      <Filter>Source Files\Ch-10\10.15</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_10_15_Question2.cpp">
+      <Filter>Source Files\Ch-10\10.15</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_10_16_Question1.cpp">
+      <Filter>Source Files\Ch-10\10.16</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_10_X_Question1.cpp">
+      <Filter>Source Files\Ch-10\10.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_10_X_Question2.cpp">
+      <Filter>Source Files\Ch-10\10.X</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

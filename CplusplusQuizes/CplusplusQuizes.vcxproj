@@ -141,12 +141,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ch_10_12_Question1.cpp" />
+    <ClCompile Include="Ch_10_15_Question1.cpp" />
+    <ClCompile Include="Ch_10_15_Question2.cpp" />
+    <ClCompile Include="Ch_10_16_Question1.cpp" />
+    <ClCompile Include="Ch_10_9_Question1.cpp" />
+    <ClCompile Include="Ch_10_X_Question1.cpp" />
+    <ClCompile Include="Ch_10_X_Question2.cpp" />
     <ClCompile Include="Ch_11_2_Question1.cpp" />
     <ClCompile Include="Ch_11_3_Question3.cpp" />
     <ClCompile Include="Ch_11_5_Question1.cpp" />
     <ClCompile Include="CplusplusQuizes.cpp" />
     <ClCompile Include="Ch_11_6_Question1.cpp" />
     <ClCompile Include="Ch_11_3_Question1.cpp" />
+    <ClCompile Include="Ch-10_5_Question1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
