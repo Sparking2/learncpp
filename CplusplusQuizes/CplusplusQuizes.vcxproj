@@ -151,10 +151,26 @@
     <ClCompile Include="Ch_11_2_Question1.cpp" />
     <ClCompile Include="Ch_11_3_Question3.cpp" />
     <ClCompile Include="Ch_11_5_Question1.cpp" />
+    <ClCompile Include="Ch_11_7_Question1.cpp" />
+    <ClCompile Include="Ch_9_14_Question1.cpp" />
+    <ClCompile Include="Ch_9_2_Question1.cpp" />
+    <ClCompile Include="Ch_9_2_Question2.cpp" />
+    <ClCompile Include="Ch_9_3_Question1.cpp" />
+    <ClCompile Include="Ch_9_3_Question2.cpp" />
+    <ClCompile Include="Ch_9_3_Question3.cpp" />
+    <ClCompile Include="Ch_9_4_Question1.cpp" />
+    <ClCompile Include="Ch_9_4_Question2.cpp" />
+    <ClCompile Include="Ch_9_4_Question3.cpp" />
+    <ClCompile Include="Ch_9_4_Question4.cpp" />
+    <ClCompile Include="Ch_9_X_Question1.cpp" />
+    <ClCompile Include="Ch_9_X_Question2.cpp" />
+    <ClCompile Include="Ch_9_X_Question3.cpp" />
+    <ClCompile Include="Ch_9_X_Question4.cpp" />
+    <ClCompile Include="Ch_9_X_Question6.cpp" />
     <ClCompile Include="CplusplusQuizes.cpp" />
     <ClCompile Include="Ch_11_6_Question1.cpp" />
     <ClCompile Include="Ch_11_3_Question1.cpp" />
-    <ClCompile Include="Ch-10_5_Question1.cpp" />
+    <ClCompile Include="Ch_10_5_Question1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

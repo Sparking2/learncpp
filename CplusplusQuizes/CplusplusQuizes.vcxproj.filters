@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Ch-9">
+      <UniqueIdentifier>{1718c1e7-0948-47eb-b92a-61934543a1d4}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files\Ch-11">
       <UniqueIdentifier>{84431af9-f32e-44ed-a17e-180aedcbe0b0}</UniqueIdentifier>
     </Filter>
@@ -49,6 +52,24 @@
     <Filter Include="Source Files\Ch-10\10.X">
       <UniqueIdentifier>{730a2e72-7ea5-40bc-9866-fd08f01b33c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Ch-11\11.7">
+      <UniqueIdentifier>{e0b3c24b-2ba7-429f-81f5-df2b4e9c2b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-9\9.2">
+      <UniqueIdentifier>{91b2be84-4312-415a-bdaf-591e519af029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-9\9.3">
+      <UniqueIdentifier>{df38a09d-9ae5-4e3c-b2a3-0cd86b16a98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-9\9.4">
+      <UniqueIdentifier>{4c83906c-1bca-4072-b27b-0f5404884701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-9\9.14">
+      <UniqueIdentifier>{13396963-e9b9-4ca7-bd5d-f2042c52a1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-9\9.X">
+      <UniqueIdentifier>{3cc20874-5bce-4869-8868-747a06f3a363}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CplusplusQuizes.cpp">
@@ -69,7 +90,7 @@
     <ClCompile Include="Ch_11_2_Question1.cpp">
       <Filter>Source Files\Ch-11\11.2</Filter>
     </ClCompile>
-    <ClCompile Include="Ch-10_5_Question1.cpp">
+    <ClCompile Include="Ch_10_5_Question1.cpp">
       <Filter>Source Files\Ch-10\10.5</Filter>
     </ClCompile>
     <ClCompile Include="Ch_10_9_Question1.cpp">
@@ -92,6 +113,54 @@
     </ClCompile>
     <ClCompile Include="Ch_10_X_Question2.cpp">
       <Filter>Source Files\Ch-10\10.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_11_7_Question1.cpp">
+      <Filter>Source Files\Ch-11\11.7</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_2_Question1.cpp">
+      <Filter>Source Files\Ch-9\9.2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_2_Question2.cpp">
+      <Filter>Source Files\Ch-9\9.2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_3_Question1.cpp">
+      <Filter>Source Files\Ch-9\9.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_3_Question2.cpp">
+      <Filter>Source Files\Ch-9\9.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_3_Question3.cpp">
+      <Filter>Source Files\Ch-9\9.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_4_Question1.cpp">
+      <Filter>Source Files\Ch-9\9.4</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_4_Question2.cpp">
+      <Filter>Source Files\Ch-9\9.4</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_4_Question3.cpp">
+      <Filter>Source Files\Ch-9\9.4</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_4_Question4.cpp">
+      <Filter>Source Files\Ch-9\9.4</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_14_Question1.cpp">
+      <Filter>Source Files\Ch-9\9.14</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_X_Question1.cpp">
+      <Filter>Source Files\Ch-9\9.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_X_Question2.cpp">
+      <Filter>Source Files\Ch-9\9.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_X_Question3.cpp">
+      <Filter>Source Files\Ch-9\9.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_X_Question4.cpp">
+      <Filter>Source Files\Ch-9\9.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_9_X_Question6.cpp">
+      <Filter>Source Files\Ch-9\9.X</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
