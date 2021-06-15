@@ -70,6 +70,9 @@
     <Filter Include="Source Files\Ch-9\9.X">
       <UniqueIdentifier>{3cc20874-5bce-4869-8868-747a06f3a363}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Ch-11\11.15">
+      <UniqueIdentifier>{be1d7e2d-3f6a-46a3-8dc4-e8f05b806bdb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CplusplusQuizes.cpp">
@@ -162,5 +165,22 @@
     <ClCompile Include="Ch_9_X_Question6.cpp">
       <Filter>Source Files\Ch-9\9.X</Filter>
     </ClCompile>
+    <ClCompile Include="Ch_11_15_Question1.cpp">
+      <Filter>Source Files\Ch-11\11.15</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3d.cpp">
+      <Filter>Source Files\Ch-11\11.15</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3d.cpp">
+      <Filter>Source Files\Ch-11\11.15</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point3d.h">
+      <Filter>Source Files\Ch-11\11.15</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3d.h">
+      <Filter>Source Files\Ch-11\11.15</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
