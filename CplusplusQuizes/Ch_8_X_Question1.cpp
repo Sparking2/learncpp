@@ -39,7 +39,7 @@ void printMonster(Monster monster) {
 	std::cout << "This " << getMonsterTypeString(monster.type) << " is named " << monster.name << " and has " << monster.health << " health\n";
 }
 
-int main() {
+int Ch_8_X_Question1() {
 	Monster ogre{ MonsterType::ogre, "Torg", 145 };
 	Monster slime{ MonsterType::slime, "Blurp", 23 };
 
@@ -48,4 +48,3 @@ int main() {
 
 	return 0;
 }
-

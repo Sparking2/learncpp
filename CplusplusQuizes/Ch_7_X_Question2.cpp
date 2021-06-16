@@ -14,7 +14,7 @@ bool isPrime(int x)
 	return (divisors == 2);
 }
 
-int main()
+int Ch_7_X_Question2()
 {
 	assert(!isPrime(0));
 	assert(!isPrime(1));

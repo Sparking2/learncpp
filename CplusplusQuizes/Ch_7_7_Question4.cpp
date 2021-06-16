@@ -9,7 +9,7 @@
 
 #include <iostream>
 
-int main()
+int Ch_7_7_Question4()
 {
 	int currentNumber = 1;
 

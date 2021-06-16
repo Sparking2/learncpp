@@ -9,7 +9,7 @@ int getNumber() {
     return x;
 }
 
-int main()
+int Ch_6_1_Question1()
 {
     std::cout << "Enter an integer: ";
     int small{ getNumber() };
@@ -26,4 +26,6 @@ int main()
     }
     std::cout << "The smaller value is " << small << "\n";
     std::cout << "The larger value is " << large << "\n";
+
+    return 0;
 } // large and small die here

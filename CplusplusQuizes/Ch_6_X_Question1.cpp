@@ -19,7 +19,7 @@
 
 #include <iostream>
 
-int Quiz_1() {
+int Ch_6_X_Question1() {
 	std::cout << "Enter a positive number: ";
 	int num{};
 	std::cin >> num;

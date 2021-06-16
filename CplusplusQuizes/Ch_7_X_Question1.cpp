@@ -23,7 +23,7 @@ bool calculateAndPrintHeight(double initialHeight, int time)
 	return currentHeight <= 0.0;
 }
 
-int Question_1()
+int Ch_7_X_Question1()
 {
 	using namespace std;
 	cout << "Enter the initial height of the tower in meters: ";

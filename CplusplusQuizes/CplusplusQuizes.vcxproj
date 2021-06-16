@@ -153,6 +153,17 @@
     <ClCompile Include="Ch_11_3_Question3.cpp" />
     <ClCompile Include="Ch_11_5_Question1.cpp" />
     <ClCompile Include="Ch_11_7_Question1.cpp" />
+    <ClCompile Include="Ch_6_1_Question1.cpp" />
+    <ClCompile Include="Ch_6_X_Question1.cpp" />
+    <ClCompile Include="Ch_6_X_Question2.cpp" />
+    <ClCompile Include="Ch_6_X_Question3.cpp" />
+    <ClCompile Include="Ch_7_5_Question1.cpp" />
+    <ClCompile Include="Ch_7_7_Question2.cpp" />
+    <ClCompile Include="Ch_7_7_Question3.cpp" />
+    <ClCompile Include="Ch_7_7_Question4.cpp" />
+    <ClCompile Include="Ch_7_X_Question1.cpp" />
+    <ClCompile Include="Ch_7_X_Question2.cpp" />
+    <ClCompile Include="Ch_8_X_Question1.cpp" />
     <ClCompile Include="Ch_9_14_Question1.cpp" />
     <ClCompile Include="Ch_9_2_Question1.cpp" />
     <ClCompile Include="Ch_9_2_Question2.cpp" />
@@ -176,6 +187,7 @@
     <ClCompile Include="Vector3d.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="constants.h" />
     <ClInclude Include="Point3d.h" />
     <ClInclude Include="Vector3d.h" />
   </ItemGroup>

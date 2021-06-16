@@ -24,13 +24,13 @@ bool passOrFail() {
 		++counter;
 		return true;
 	}
-		
+
 	return false;
 }
 
-int main() {
+int Ch_6_X_Question3() {
 	std::cout << "User #1: " << (passOrFail() ? "Pass" : "Fail") << '\n';
-	std::cout << "User #2: " << (passOrFail() ? "Pass" : "Fail") << '\n';	
+	std::cout << "User #2: " << (passOrFail() ? "Pass" : "Fail") << '\n';
 	std::cout << "User #3: " << (passOrFail() ? "Pass" : "Fail") << '\n';
 	std::cout << "User #4: " << (passOrFail() ? "Pass" : "Fail") << '\n';
 	std::cout << "User #5: " << (passOrFail() ? "Pass" : "Fail") << '\n';

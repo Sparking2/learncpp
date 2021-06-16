@@ -6,7 +6,7 @@
 #include "constants.h"
 #include <iostream>
 
-int Quiz_2() {
+int Ch_6_X_Question2() {
 	std::cout << "How many students are in your class? ";
 	int students{};
 	std::cin >> students;

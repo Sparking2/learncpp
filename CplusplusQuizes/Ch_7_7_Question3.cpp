@@ -9,7 +9,7 @@
 
 #include <iostream>
 
-int Question_3()
+int Ch_7_7_Question3()
 {
 	int outer{ 5 };
 	while (outer >= 1) {

@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-int Question_2() {
+int Ch_7_7_Question2() {
 
 	int currentLetter = 97;
 

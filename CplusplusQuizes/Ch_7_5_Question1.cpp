@@ -30,7 +30,7 @@ int calculate(int x, int y, char op) {
 	}
 }
 
-int main()
+int Ch_7_5_Question1()
 {
 	std::cout << "Write the first number: ";
 	int x{};
@@ -48,4 +48,3 @@ int main()
 
 	return 0;
 }
-

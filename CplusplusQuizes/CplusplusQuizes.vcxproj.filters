@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Ch-7">
+      <UniqueIdentifier>{d1387e65-03bd-453c-96d1-fd235e68b90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-8">
+      <UniqueIdentifier>{97271dbb-9586-438b-a356-add59295951a}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files\Ch-9">
       <UniqueIdentifier>{1718c1e7-0948-47eb-b92a-61934543a1d4}</UniqueIdentifier>
     </Filter>
@@ -72,6 +78,27 @@
     </Filter>
     <Filter Include="Source Files\Ch-11\11.15">
       <UniqueIdentifier>{be1d7e2d-3f6a-46a3-8dc4-e8f05b806bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-8\8.X">
+      <UniqueIdentifier>{0ecbd48e-cbc6-4d65-8a50-4bfaa01b25db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-7\7.5">
+      <UniqueIdentifier>{b49500cc-2733-4e2a-a77c-353794294cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-7\7.7">
+      <UniqueIdentifier>{95b6f7b2-3cea-427b-817b-ae9439cfed7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-7\7.X">
+      <UniqueIdentifier>{9ca90c5a-345e-467d-8b03-0b5c4a53dce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-6">
+      <UniqueIdentifier>{76a32f3c-b2ed-4e9e-8853-47da0d29ed0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-6\6.1">
+      <UniqueIdentifier>{2eea272e-fc0a-4a25-9204-94dd416189a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-6\6.X">
+      <UniqueIdentifier>{6f41be9e-5bab-4362-8dcb-55ca16183766}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +201,39 @@
     <ClCompile Include="Vector3d.cpp">
       <Filter>Source Files\Ch-11\11.15</Filter>
     </ClCompile>
+    <ClCompile Include="Ch_8_X_Question1.cpp">
+      <Filter>Source Files\Ch-8\8.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_7_5_Question1.cpp">
+      <Filter>Source Files\Ch-7\7.5</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_7_7_Question2.cpp">
+      <Filter>Source Files\Ch-7\7.7</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_7_7_Question3.cpp">
+      <Filter>Source Files\Ch-7\7.7</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_7_7_Question4.cpp">
+      <Filter>Source Files\Ch-7\7.7</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_7_X_Question1.cpp">
+      <Filter>Source Files\Ch-7\7.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_7_X_Question2.cpp">
+      <Filter>Source Files\Ch-7\7.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_6_1_Question1.cpp">
+      <Filter>Source Files\Ch-6\6.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_6_X_Question1.cpp">
+      <Filter>Source Files\Ch-6\6.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_6_X_Question2.cpp">
+      <Filter>Source Files\Ch-6\6.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_6_X_Question3.cpp">
+      <Filter>Source Files\Ch-6\6.X</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point3d.h">
@@ -181,6 +241,9 @@
     </ClInclude>
     <ClInclude Include="Vector3d.h">
       <Filter>Source Files\Ch-11\11.15</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
