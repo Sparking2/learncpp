@@ -100,6 +100,48 @@
     <Filter Include="Source Files\Ch-6\6.X">
       <UniqueIdentifier>{6f41be9e-5bab-4362-8dcb-55ca16183766}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Ch-11\11.X">
+      <UniqueIdentifier>{95c14112-31a2-4cb6-875f-85720e9b1d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-13">
+      <UniqueIdentifier>{8255aeb0-2336-4a24-a130-9e4dae8f0ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-13\13.2">
+      <UniqueIdentifier>{17081b79-4521-492c-8eee-08356110a7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-13\13.4">
+      <UniqueIdentifier>{1479046e-99ac-4659-8267-fd15547e9bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-13\13.6">
+      <UniqueIdentifier>{e5e8750a-301f-4ade-8eae-97bc50e86cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-13\13.7">
+      <UniqueIdentifier>{1c714e9e-2159-408f-92c7-b8b2c14e3e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-13\13.9">
+      <UniqueIdentifier>{370f200a-a934-4b43-b53f-d3510c6b0e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-13\13.10">
+      <UniqueIdentifier>{b0ccee9d-d1cc-46d2-934f-c1528eab7c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-13\13.X">
+      <UniqueIdentifier>{84824b12-0885-4bf8-ab18-72f9b1bc2412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-16">
+      <UniqueIdentifier>{0ae22a08-ccf1-4214-9faf-18b9c5ccf3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-16\16.3">
+      <UniqueIdentifier>{a78c9b32-4de3-421b-b40e-6cced49594a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-16\16.7">
+      <UniqueIdentifier>{146d6710-bdae-4b8c-b5dd-16bf796405a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-17">
+      <UniqueIdentifier>{7972a7c8-2c02-4d36-a191-4478259ef3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ch-17\17.4">
+      <UniqueIdentifier>{e6e1b918-93de-4bc6-acae-2bef31556efd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CplusplusQuizes.cpp">
@@ -234,6 +276,57 @@
     <ClCompile Include="Ch_6_X_Question3.cpp">
       <Filter>Source Files\Ch-6\6.X</Filter>
     </ClCompile>
+    <ClCompile Include="Ch_11_X_Question1.cpp">
+      <Filter>Source Files\Ch-11\11.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_11_X_Question2.cpp">
+      <Filter>Source Files\Ch-11\11.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_11_X_Question3.cpp">
+      <Filter>Source Files\Ch-11\11.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_11_X_Question4.cpp">
+      <Filter>Source Files\Ch-11\11.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_2_Question1.cpp">
+      <Filter>Source Files\Ch-13\13.2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_4_Question1.cpp">
+      <Filter>Source Files\Ch-13\13.4</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_6_Question1.cpp">
+      <Filter>Source Files\Ch-13\13.6</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_7_Question1.cpp">
+      <Filter>Source Files\Ch-13\13.7</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_7_Question2.cpp">
+      <Filter>Source Files\Ch-13\13.7</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_9_Question1.cpp">
+      <Filter>Source Files\Ch-13\13.9</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_10_Question1.cpp">
+      <Filter>Source Files\Ch-13\13.10</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_X_Question2.cpp">
+      <Filter>Source Files\Ch-13\13.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_X_Question3.cpp">
+      <Filter>Source Files\Ch-13\13.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_13_X_Question4.cpp">
+      <Filter>Source Files\Ch-13\13.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_16_3_Question1.cpp">
+      <Filter>Source Files\Ch-16\16.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_16_7_Question1.cpp">
+      <Filter>Source Files\Ch-16\16.7</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_17_4_Question1.cpp">
+      <Filter>Source Files\Ch-17\17.4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point3d.h">
@@ -243,6 +336,9 @@
       <Filter>Source Files\Ch-11\11.15</Filter>
     </ClInclude>
     <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ch_13_X_Question3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

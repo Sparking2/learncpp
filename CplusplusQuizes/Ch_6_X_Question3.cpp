@@ -34,4 +34,6 @@ int Ch_6_X_Question3() {
 	std::cout << "User #3: " << (passOrFail() ? "Pass" : "Fail") << '\n';
 	std::cout << "User #4: " << (passOrFail() ? "Pass" : "Fail") << '\n';
 	std::cout << "User #5: " << (passOrFail() ? "Pass" : "Fail") << '\n';
+
+	return 0;
 }

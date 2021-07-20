@@ -153,6 +153,23 @@
     <ClCompile Include="Ch_11_3_Question3.cpp" />
     <ClCompile Include="Ch_11_5_Question1.cpp" />
     <ClCompile Include="Ch_11_7_Question1.cpp" />
+    <ClCompile Include="Ch_11_X_Question1.cpp" />
+    <ClCompile Include="Ch_11_X_Question2.cpp" />
+    <ClCompile Include="Ch_11_X_Question3.cpp" />
+    <ClCompile Include="Ch_11_X_Question4.cpp" />
+    <ClCompile Include="Ch_13_10_Question1.cpp" />
+    <ClCompile Include="Ch_13_2_Question1.cpp" />
+    <ClCompile Include="Ch_13_4_Question1.cpp" />
+    <ClCompile Include="Ch_13_6_Question1.cpp" />
+    <ClCompile Include="Ch_13_7_Question1.cpp" />
+    <ClCompile Include="Ch_13_7_Question2.cpp" />
+    <ClCompile Include="Ch_13_9_Question1.cpp" />
+    <ClCompile Include="Ch_13_X_Question2.cpp" />
+    <ClCompile Include="Ch_13_X_Question3.cpp" />
+    <ClCompile Include="Ch_13_X_Question4.cpp" />
+    <ClCompile Include="Ch_16_3_Question1.cpp" />
+    <ClCompile Include="Ch_16_7_Question1.cpp" />
+    <ClCompile Include="Ch_17_4_Question1.cpp" />
     <ClCompile Include="Ch_6_1_Question1.cpp" />
     <ClCompile Include="Ch_6_X_Question1.cpp" />
     <ClCompile Include="Ch_6_X_Question2.cpp" />
@@ -187,6 +204,7 @@
     <ClCompile Include="Vector3d.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ch_13_X_Question3.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="Point3d.h" />
     <ClInclude Include="Vector3d.h" />
