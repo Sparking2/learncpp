@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f703b6c5-dca9-466c-b275-008162bf1ed8}</ProjectGuid>
-    <RootNamespace>CplusplusQuizes</RootNamespace>
+    <ProjectGuid>{854ca222-da16-4da0-b8c9-68926f3ce4f6}</ProjectGuid>
+    <RootNamespace>My18X</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,75 +141,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ch_10_12_Question1.cpp" />
-    <ClCompile Include="Ch_10_15_Question1.cpp" />
-    <ClCompile Include="Ch_10_15_Question2.cpp" />
-    <ClCompile Include="Ch_10_16_Question1.cpp" />
-    <ClCompile Include="Ch_10_9_Question1.cpp" />
-    <ClCompile Include="Ch_10_X_Question1.cpp" />
-    <ClCompile Include="Ch_10_X_Question2.cpp" />
-    <ClCompile Include="Ch_11_15_Question1.cpp" />
-    <ClCompile Include="Ch_11_2_Question1.cpp" />
-    <ClCompile Include="Ch_11_3_Question3.cpp" />
-    <ClCompile Include="Ch_11_5_Question1.cpp" />
-    <ClCompile Include="Ch_11_7_Question1.cpp" />
-    <ClCompile Include="Ch_11_X_Question1.cpp" />
-    <ClCompile Include="Ch_11_X_Question2.cpp" />
-    <ClCompile Include="Ch_11_X_Question3.cpp" />
-    <ClCompile Include="Ch_11_X_Question4.cpp" />
-    <ClCompile Include="Ch_13_10_Question1.cpp" />
-    <ClCompile Include="Ch_13_2_Question1.cpp" />
-    <ClCompile Include="Ch_13_4_Question1.cpp" />
-    <ClCompile Include="Ch_13_6_Question1.cpp" />
-    <ClCompile Include="Ch_13_7_Question1.cpp" />
-    <ClCompile Include="Ch_13_7_Question2.cpp" />
-    <ClCompile Include="Ch_13_9_Question1.cpp" />
-    <ClCompile Include="Ch_13_X_Question2.cpp" />
-    <ClCompile Include="Ch_13_X_Question3.cpp" />
-    <ClCompile Include="Ch_13_X_Question4.cpp" />
-    <ClCompile Include="Ch_16_3_Question1.cpp" />
-    <ClCompile Include="Ch_16_7_Question1.cpp" />
-    <ClCompile Include="Ch_17_4_Question1.cpp" />
-    <ClCompile Include="Ch_17_X_Question2.cpp" />
-    <ClCompile Include="Ch_17_X_Question3.cpp" />
-    <ClCompile Include="Ch_6_1_Question1.cpp" />
-    <ClCompile Include="Ch_6_X_Question1.cpp" />
-    <ClCompile Include="Ch_6_X_Question2.cpp" />
-    <ClCompile Include="Ch_6_X_Question3.cpp" />
-    <ClCompile Include="Ch_7_5_Question1.cpp" />
-    <ClCompile Include="Ch_7_7_Question2.cpp" />
-    <ClCompile Include="Ch_7_7_Question3.cpp" />
-    <ClCompile Include="Ch_7_7_Question4.cpp" />
-    <ClCompile Include="Ch_7_X_Question1.cpp" />
-    <ClCompile Include="Ch_7_X_Question2.cpp" />
-    <ClCompile Include="Ch_8_X_Question1.cpp" />
-    <ClCompile Include="Ch_9_14_Question1.cpp" />
-    <ClCompile Include="Ch_9_2_Question1.cpp" />
-    <ClCompile Include="Ch_9_2_Question2.cpp" />
-    <ClCompile Include="Ch_9_3_Question1.cpp" />
-    <ClCompile Include="Ch_9_3_Question2.cpp" />
-    <ClCompile Include="Ch_9_3_Question3.cpp" />
-    <ClCompile Include="Ch_9_4_Question1.cpp" />
-    <ClCompile Include="Ch_9_4_Question2.cpp" />
-    <ClCompile Include="Ch_9_4_Question3.cpp" />
-    <ClCompile Include="Ch_9_4_Question4.cpp" />
-    <ClCompile Include="Ch_9_X_Question1.cpp" />
-    <ClCompile Include="Ch_9_X_Question2.cpp" />
-    <ClCompile Include="Ch_9_X_Question3.cpp" />
-    <ClCompile Include="Ch_9_X_Question4.cpp" />
-    <ClCompile Include="Ch_9_X_Question6.cpp" />
-    <ClCompile Include="CplusplusQuizes.cpp" />
-    <ClCompile Include="Ch_11_6_Question1.cpp" />
-    <ClCompile Include="Ch_11_3_Question1.cpp" />
-    <ClCompile Include="Ch_10_5_Question1.cpp" />
-    <ClCompile Include="Point3d.cpp" />
-    <ClCompile Include="Vector3d.cpp" />
+    <ClInclude Include="src\circle.h" />
+    <ClInclude Include="src\point.h" />
+    <ClInclude Include="src\shape.h" />
+    <ClInclude Include="src\triangle.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ch_13_X_Question3.h" />
-    <ClInclude Include="constants.h" />
-    <ClInclude Include="Point3d.h" />
-    <ClInclude Include="Vector3d.h" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

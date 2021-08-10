@@ -142,6 +142,9 @@
     <Filter Include="Source Files\Ch-17\17.4">
       <UniqueIdentifier>{e6e1b918-93de-4bc6-acae-2bef31556efd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Ch-17\17.X">
+      <UniqueIdentifier>{6eeb7131-1061-4557-866c-0c5d3823af1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CplusplusQuizes.cpp">
@@ -326,6 +329,12 @@
     </ClCompile>
     <ClCompile Include="Ch_17_4_Question1.cpp">
       <Filter>Source Files\Ch-17\17.4</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_17_X_Question2.cpp">
+      <Filter>Source Files\Ch-17\17.X</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch_17_X_Question3.cpp">
+      <Filter>Source Files\Ch-17\17.X</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

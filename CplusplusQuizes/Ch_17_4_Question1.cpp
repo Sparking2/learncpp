@@ -20,40 +20,40 @@ public:
 
 };
 
-class Apple : Fruit {
+class Apple_old : Fruit {
 private:
     double m_fiber{};
 
 public:
-    Apple(const std::string name, const std::string color, const double fiber)
+    Apple_old(const std::string name, const std::string color, const double fiber)
         : Fruit{ name, color }, m_fiber{ fiber }
     {}
 
-    friend std::ostream& operator<< (std::ostream& out, const Apple& myApple) {
-        out << "Apple " << "(" << myApple.getName() << ", " << myApple.getColor() << ", " << myApple.m_fiber << ")\n";
+    friend std::ostream& operator<< (std::ostream& out, const Apple_old& myApple_old) {
+        out << "Apple_old " << "(" << myApple_old.getName() << ", " << myApple_old.getColor() << ", " << myApple_old.m_fiber << ")\n";
         return out;
     }
 };
 
-class Banana : Fruit {
+class Banana_old : Fruit {
 
 public:
-    Banana(const std::string name, const std::string color)
+    Banana_old(const std::string name, const std::string color)
         : Fruit{ name,color }
     {}
 
-    friend std::ostream& operator<< (std::ostream& out, const Banana& myBanana) {
-        out << "Banana " << "(" << myBanana.getName() << ", " << myBanana.getColor() << ")\n";
+    friend std::ostream& operator<< (std::ostream& out, const Banana_old& myBanana_old) {
+        out << "Banana_old " << "(" << myBanana_old.getName() << ", " << myBanana_old.getColor() << ")\n";
         return out;
     }
 };
 
-int main()
+int Ch_17_4_Question1()
 {
-    const Apple a{ "Red delicious", "red", 4.2 };
+    const Apple_old a{ "Red delicious", "red", 4.2 };
     std::cout << a << '\n';
 
-    const Banana b{ "Cavendish", "yellow" };
+    const Banana_old b{ "Cavendish", "yellow" };
     std::cout << b << '\n';
 
     return 0;
